@@ -1,0 +1,154 @@
+body {
+	margin:0 auto;
+	padding:0;
+	font-family:Arial, Verdana, Sans-Serif;
+	font-size:12px;
+	background:#f3f4ed;
+}
+
+.fleft {float:left;}
+.fright {float:right;}
+.fclear {clear:both;}
+
+a {
+	text-decoration:none;
+	color:#B60400;
+}
+a:hover {color:#808080;}
+a img {border:0;}
+
+h3 {
+	font-size:1.3em;
+	margin:0 0 5px 0;
+	padding:2px 0 0 0;
+	border-bottom:2px solid #eee;
+}
+
+#bg {
+	width:980px;
+	margin:0 auto;
+	height:774px;
+	padding:6px 10px 0 10px;
+	background:url(../images/bg.gif) no-repeat;
+}
+
+#container {
+	padding:9px 4px 0 2px;
+	color:#303030;
+	width:946px;
+}
+
+#header{
+	clear:both;
+	width:941px;
+	text-align:right;
+	padding:20px 15px 0 0;
+	margin:0 0 3px 0;
+	height:40px;
+	border-bottom:2px solid #eee;
+	background:#FFF url(../images/fade.gif) repeat-x;
+	color:#808080;
+}
+
+#title {
+	float:left;
+	font-size:14pt;
+	font-weight:bold;
+	padding:0 0 0 10px;
+}
+
+#menu {
+	clear:left;
+	float:left;
+	width:150px;
+	margin:0 0 10px 0;
+	padding:0;
+	font-size:0.9em;
+}
+#menu ul {
+	list-style:none;
+	width:150px;
+	margin:0 0 3px 0;
+	padding:0;
+	font-size:1.1em;
+	border-right:2px solid #ccc;
+}
+#menu li {
+	margin-bottom:4px;
+	padding:0 5px 0 10px;
+}
+#menu li a {
+	font-size:9pt;
+	font-weight:bold;
+	text-align:right;
+	height:20px;
+	text-decoration:none;
+	color:#808080;
+	display:block;
+	padding:6px 10px 0 10px;
+	background:#fff;
+	border-bottom:1px dotted #ccc;
+}
+#menu li a:hover {color:#286ea0;}
+
+#login{
+	float:right;
+	margin:5px 0px 0px 20px;
+}
+
+#main {
+	height:620px;
+	margin:0 200px 20px 150px;
+	padding:5px 10px 5px 10px;
+	line-height:1.6em;
+	text-align:left;
+	color:#5D5D5D;
+	border-left:2px solid #eee;
+}
+#main a, #right a:visited {
+	text-decoration:underline;
+}
+#main p {
+	padding:0;
+	margin:0;
+}
+
+#footer {
+	clear:both;
+	color:#808080;
+	background:#FFF;
+	font-size:0.8em;
+	text-align:left;
+	padding:9px 10px 9px 9px;
+	margin:10px 5px 10px 15px;
+	border:1px solid #ccc;
+}
+#footer a {
+	text-decoration:underline;
+	color:#3A6794;
+}
+#footer a:hover {
+	color:#000;
+}
+
+
+.articleview{
+	width:785px;
+}
+
+.articleview td{
+	border:1px solid #ccc;
+}
+
+.articleview img{
+	width: 200px;
+}
+
+
+.articletable{
+	width:500px;
+}
+
+.articletable td{
+	border:1px solid #ccc;
+}

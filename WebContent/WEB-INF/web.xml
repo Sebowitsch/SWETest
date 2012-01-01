@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-app_2_4.xsd"
+         version="2.4">
+
+	<display-name>SWE Projekt</display-name>
+   
+    <servlet>
+        <servlet-name>ArticleController</servlet-name>
+        <description>Test</description>
+        <display-name>Articles</display-name>
+        <servlet-class>SWE.controller.ArticleController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserController</servlet-name>
+        <description></description>
+        <display-name>Users</display-name>
+        <servlet-class>SWE.controller.UserController</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>ArticleController</servlet-name>
+        <url-pattern>/home/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserController</servlet-name>
+        <url-pattern>/user/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
